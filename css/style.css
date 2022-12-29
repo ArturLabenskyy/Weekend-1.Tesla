@@ -4,8 +4,39 @@
     box-sizing: border-box;
 }
 
-html, body {
+html {
     background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD')
     no-repeat center center/cover;
     min-height: 100%;
+}
+
+
+#navbar {
+    overflow: auto;
+}
+
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+    padding-right: 30px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.panel-right {
+    float: right;
+
+}
+
+.panel-mid {
+    position: relative;
+
 }
