@@ -27,6 +27,7 @@ html {
     background: none;
     list-style: none;
     text-align: left;
+    color: #ffffff;
 }
 
 
@@ -154,3 +155,48 @@ section .bott-content li {
     background: #ffffff;
 }
 
+.blink {
+    color: black;
+}
+
+/*SECTION - SAFETY*/
+
+.safety-2 {
+    float: right;
+    text-align: left;
+    width: 19.6%;
+    margin-right: 5px;
+    margin-top: 10%;
+}
+
+#p-safety {
+    font-weight: bold;
+}
+
+#bfs {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box {
+    border-left:4px black solid;
+}
+
+#box-1 {
+    float: right;
+    margin-top: 30px;
+    width: 29.3%;
+    height: 130px;
+}
+
+#box-2 {
+    float: right;
+    margin-top: 100px;
+    margin-right: 110px;
+    margin-bottom: 30px;
+    height: 250px;
+}
+
+#safety-dscrp {
+    margin-left: 5px;
+}
