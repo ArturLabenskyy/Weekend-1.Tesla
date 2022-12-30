@@ -37,7 +37,7 @@ header a {
 
 header nav a {
     text-decoration: none;
-    padding: 32px 12px;
+    padding: 10px 15px;
 }
 
 header nav.center {
@@ -52,9 +52,8 @@ header nav.right {
 header a svg {
     height: 24px;
     width: 120px;
-    margin-top: 10px;
-    margin-left: 10px;
 }
+
 
 section {
     height: 100vh;
@@ -71,8 +70,16 @@ section .content {
     display: grid;
 }
 
+section .content h1 a {
+    font-size: 24px;
+    width: 200px;
+    height: 100px;
+    padding-top: 5px;
+}
+
 section h1 {
     font-size: 3rem;
+    padding: 0 0;
 }
 
 section a {
