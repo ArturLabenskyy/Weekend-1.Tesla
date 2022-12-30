@@ -78,12 +78,43 @@ section .content h1 a {
 }
 
 section .model-3 {
-    font-size: 36px;
+    font-size: 40px;
     color: #ffffff;
 }
 
 section a {
-    font-size: 14px;
+    font-size: 18px;
     color:#ffffff;
+}
+
+.container {
+    position: relative;
+    width: 1004px;
+    margin: 0 auto;
+}
+
+section .bott-content {
+    position: absolute;
+    bottom: 20px;
+    left: 230px;
+}
+
+section .bott-content li {
+    font-weight: bold;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.buy-now {
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
 }
 
