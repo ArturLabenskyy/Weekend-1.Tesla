@@ -229,3 +229,21 @@ section .bott-content li {
     bottom: 5px;
 }
 
+#buy-now-safety {
+    position: relative;
+    top: 80px;
+    left: 55px;
+    padding: 7px 40px;
+    text-decoration: none;
+    font-size: 22px;
+    background: none;
+    border: 3px #010101 solid;
+    color: #010101;
+    font-weight: bold;
+    text-align: center;
+}
+
+#buy-now-safety:hover {
+    background-color: #010101;
+    color: #ffffff;
+}
