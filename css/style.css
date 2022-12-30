@@ -182,21 +182,50 @@ section .bott-content li {
     border-left:4px black solid;
 }
 
-#box-1 {
+#stick-box {
+    position: relative;
+    height: 990px;
+    width: 1000px;
     float: right;
-    margin-top: 30px;
-    width: 29.3%;
+}
+
+
+#box-1 {
+    border-left:4px black solid;
+    position: absolute;
+    right:1px;
+    top: 28px;
+    width: 34%;
     height: 130px;
 }
 
 #box-2 {
-    float: right;
-    margin-top: 100px;
-    margin-right: 110px;
-    margin-bottom: 30px;
-    height: 250px;
+    border-left:4px black solid;
+    position: absolute;
+    right: 485px;
+    top: 150px;
+    height: 170px;
 }
 
-#safety-dscrp {
+#box-3 {
+    border-left:4px black solid;
+    position: absolute;
+    top: 41%;
+    right: 15%;
+    width: 200px;
+    height: 20%;
+}
+
+#safety-stick {
     margin-left: 5px;
 }
+
+#safety-stick-down {
+    margin-left: 5px;
+}
+
+#box-3 p {
+    position: absolute;
+    bottom: 5px;
+}
+
