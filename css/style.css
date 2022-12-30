@@ -49,6 +49,10 @@ header nav.right {
 
 }
 
+header nav a:hover {
+    background: #5d5f69;
+}
+
 header a svg {
     height: 24px;
     width: 120px;
@@ -104,17 +108,27 @@ section .bott-content li {
     display: inline-block;
     color: #ffffff;
     text-decoration: none;
-    padding: 15px 20px;
+    padding: 15px 25px;
+    font-size: 16px;
 }
 
 .buy-now {
+    text-decoration: none;
+    font-size: 22px;
     position: absolute;
-    bottom: 20px;
-    right: 200px;
+    bottom: 30px;
+    right: 150px;
     background: none;
-    border: none;
+    border: 3px #ffffff solid;
+    padding: 7px 40px;
     color: #ffffff;
     font-weight: bold;
     text-align: center;
+}
+
+
+.buy-now:hover {
+    color: rgb(6, 6, 6);
+    background: #ffffff;
 }
 
