@@ -77,12 +77,13 @@ section .content h1 a {
     padding-top: 5px;
 }
 
-section h1 {
-    font-size: 3rem;
-    padding: 0 0;
+section .model-3 {
+    font-size: 36px;
+    color: #ffffff;
 }
 
 section a {
+    font-size: 14px;
     color:#ffffff;
 }
 
