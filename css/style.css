@@ -258,3 +258,10 @@ section .bott-content li {
     color: #010101;
 }
 
+/*---------------Performance------------------*/
+
+#performance {
+    background-image: url(../img/2.jpeg);
+    position: relative;
+}
+
