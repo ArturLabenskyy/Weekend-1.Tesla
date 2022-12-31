@@ -48,8 +48,6 @@ header {
     display: grid;
     grid-template-columns: auto 1fr auto;
     padding: 5px 20px;
-    position: fixed;
-    top: 0;
     z-index: 2;
     width: 100%;
 }
@@ -91,8 +89,8 @@ section {
 section .content {
     width: 100%;
     height: 100vh;
-    padding-top: 15vh;
-    padding-bottom: 15vh;
+    padding-top: 9vh;
+    padding-bottom: 9vh;
     text-align: center;
     display: grid;
 }
@@ -247,3 +245,16 @@ section .bott-content li {
     background-color: #010101;
     color: #ffffff;
 }
+
+#safety-side-menu {
+    color: #010101;
+}
+
+#safety-side-menu li a {
+    color: transparent;
+}
+
+#safety-side-menu li a:hover {
+    color: #010101;
+}
+
